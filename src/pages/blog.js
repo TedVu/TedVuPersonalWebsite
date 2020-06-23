@@ -1,8 +1,8 @@
 import React from 'react'
-import Layout from '../component/layout'
+import Layout from '../components/layout'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import blogStyles from './blog.module.scss'
-import Head from '../component/head'
+import Head from '../components/head'
 
 const BlogPage = () => {
 
