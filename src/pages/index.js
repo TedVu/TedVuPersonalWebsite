@@ -1,5 +1,20 @@
-import React from "react"
+import React from 'react'
+import Layout from '../component/layout'
 
-export default function Home() {
-  return <div>Hello world!</div>
+import { Link } from 'gatsby'
+import Head from '../component/head'
+const indexPage = () => {
+
+  return (
+    <Layout>
+      <Head title="Home"/>
+      <h1>Hello,</h1>
+      <h2>I'm Ted A Software Engineer living in the Bay.</h2>
+      <p>Need a developer ? <Link to="/contact">Contact me.</Link></p>
+    </Layout>
+  )
+
 }
+
+
+export default indexPage
