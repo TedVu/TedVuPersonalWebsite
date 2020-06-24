@@ -13,7 +13,7 @@ const aboutPage = () => {
                 <Head title="About" />
                 <h1>This is about page</h1>
                 <h2>Content will show up later on</h2>
-                <p>Go to <Link to="/contact">contact</Link></p>
+                <p>Go to <Link to="/top100">contact</Link></p>
             </Layout>
         </div>
     )
