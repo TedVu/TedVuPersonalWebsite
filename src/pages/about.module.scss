@@ -1,0 +1,28 @@
+.title{
+    color:white
+}
+
+.aboutMe{
+        background:#f4f4f4;
+        color: #000000;
+        display:flex;
+        padding:1rem;
+        text-decoration: none;
+        border-radius: 25px;
+}
+
+.content{
+    margin-left:5rem;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; 
+}
+
+.img{
+    padding:2px;
+    border-radius: 50%;
+    float:left;
+    margin-left:2rem;
+    margin-top:2rem;
+}
+

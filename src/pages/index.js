@@ -11,7 +11,7 @@ const indexPage = () => {
       <div className={indexStyle.introduction}>
        <h2>Welcome to Ted Vu Personal Website</h2>
        <div>This is where I write my personal thoughts about engineering, tech, life.</div>
-       <div><br/>Have a look around !</div>
+       <div><br/>Have a look around !!!</div>
       </div>
     </Layout>
 

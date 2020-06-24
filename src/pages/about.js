@@ -1,8 +1,8 @@
 import React from 'react'
 import Layout from '../components/layout'
 
-import { Link } from 'gatsby'
 import Head from '../components/head'
+import aboutStyles from './about.module.scss'
 
 
 
@@ -11,11 +11,13 @@ const aboutPage = () => {
         <div>
             <Layout>
                 <Head title="About" />
-                <h1>This is about page</h1>
-                <h2>Content will show up later on</h2>
-                <p>Go to <Link to="/top100">contact</Link></p>
+                <h1 className={aboutStyles.title}>About Me</h1>
+                <div className={aboutStyles.aboutMe}>
+                    <img className={aboutStyles.img} src="LinkedInAva2020.jpg" alt="tedvu" width="200" height="200" />
+                  <div className={aboutStyles.content}> Hi there, my name is Ted, I'm a third year Software Engineering student at RMIT Melbourne</div>
+                </div>
             </Layout>
-        </div>
+        </div >
     )
 }
 
