@@ -10,7 +10,7 @@ const ContactPage = () => {
                 <Head title="Contact" />
                 <h1 className={contactStyles.title}>Contact </h1>
                 <div className={contactStyles.content}>
-                    <p>I'm best contacted me via email at <a href="mailto: tedvu184@gmail.com">tedvu184@gmail.com</a></p>
+                    <p>I'm best contacted via email at <a href="mailto: tedvu184@gmail.com">tedvu184@gmail.com</a></p>
                     <p>If you are around Melbourne, don't hesitate to set up a meeting with me for any interesting conversation and project collaboration</p>
                     <p>I'm also available on other channels:</p>
                     <ul>
