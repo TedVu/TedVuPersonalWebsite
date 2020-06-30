@@ -1,6 +1,6 @@
 # This is a repo for Ted Vu Personal Website
 
-The website is built by leveraging these following technologies:
+The website was built by leveraging these following technologies:
 * GatsbyJS
 * React
 * GraphQL
