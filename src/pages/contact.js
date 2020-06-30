@@ -14,10 +14,10 @@ const ContactPage = () => {
                     <p>If you are around Melbourne, don't hesitate to set up a meeting with me for any interesting conversation and project collaboration</p>
                     <p>I'm also available on other channels:</p>
                     <ul>
-                        <li><a href="https://github.com/Ted-Vu" target="_blank">Github</a></li>
-                        <li><a  href="https://www.linkedin.com/in/ted-vu-24777b18b/" target="_blank">LinkedIn</a></li>
-                        <li><a href="https://www.instagram.com/tedvu184/" target="_blank">Instagram</a></li>
-                        <li><a  href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a href="https://github.com/Ted-Vu" target="_blank" className={contactStyles.linkItem}><i class="fa fa-github"></i> Github </a></li>
+                        <li><a  href="https://www.linkedin.com/in/ted-vu-24777b18b/" target="_blank" className={contactStyles.linkItem}><i class="fa fa-linkedin-square"></i> LinkedIn </a></li>
+                        <li><a href="https://www.instagram.com/tedvu184/" target="_blank" className={contactStyles.linkItem}><i class="fa fa-instagram"></i> Instagram </a></li>
+                        <li><a  href="https://www.facebook.com/" target="_blank" className={contactStyles.linkItem}><i class="fa fa-facebook-official"></i> Facebook </a></li>
                     </ul>
                 </div>
             </Layout>
