@@ -32,7 +32,22 @@
     .aboutMe {
         flex-direction: column;
     }
-  }
+}
+
+.links{
+    text-decoration: none;
+    height: 100%;
+    color:#C1292E;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    text-align: center;
+}
+.links:hover{
+    color:rgb(50, 163, 255);
+    transform: scale(1.2);
+}
 
 
 
