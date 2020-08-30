@@ -1,11 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-.introduction{
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+
+.introduction {
         margin: 1rem 0;
-        background:#f4f4f4;
+        background: #f4f4f4;
         color: #000000;
-        display:block;
-        padding:1rem;
+        display: block;
+        padding: 1rem;
         text-decoration: none;
         font-family: 'Rubik', sans-serif;
-        border-radius:25px;
+        border-radius: 25px;
+}
+
+.cite {
+        text-align: right;
+}
+
+blockquote {
+        font-weight: 100;
+        font-size: 1.5rem;
+        max-width: 650px;
+        line-height: 1.4;
+        position: relative;
+        margin: 2;
+        padding: 1.5rem;
+}
+
+blockquote:before,
+blockquote:after {
+        position: absolute;
+        color: black;
+        font-size: 8rem;
+        width: 4rem;
+        height: 4rem;
+}
+
+blockquote:before {
+        content: '“';
+        padding: 0rem;
+        left: -2rem;
+        top: -2rem;
+}
+
+blockquote:after {
+        content: '”';
+        right: 0rem;
+        bottom: 1rem;
+}
+
+cite {
+        line-height: 1;
 }
