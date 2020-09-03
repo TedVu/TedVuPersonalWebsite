@@ -11,7 +11,7 @@ const indexPage = () => {
         <h2>Welcome to Ted Vu Personal Website</h2>
         <div>
           This is where I write my personal thoughts about engineering, tech,
-          life.
+          life and so much more
         </div>
         <blockquote>
           Scientists discover the world that exists Engineers create the world
