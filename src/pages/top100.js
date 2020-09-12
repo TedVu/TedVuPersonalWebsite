@@ -18,7 +18,7 @@ const Top100Page = () => {
           <ol>
             <li>Visit my family in Seattle 😎</li>
             <li>
-              Visit Sanfrancisco and take a picture at the Golden Gate bridge
+              Visit San Francisco and take a picture at the Golden Gate bridge
             </li>
             <li>
               Drink a beer while wearing cowboy hat at a Texas bar (please don't
@@ -30,6 +30,7 @@ const Top100Page = () => {
             </li>
             <li>Visit NASA, SpaceX HQ and watch a rocket launch 🚀</li>
             <li>Raise a sloth pet</li>
+            <li>Attend a grandslam tennis match </li>
           </ol>
         </div>
       </Layout>
