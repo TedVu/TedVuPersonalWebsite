@@ -31,6 +31,7 @@ const Top100Page = () => {
             <li>Visit NASA, SpaceX HQ and watch a rocket launch 🚀</li>
             <li>Raise a sloth pet</li>
             <li>Attend a grandslam tennis match </li>
+            <li>Publish a library/framework/package</li>
           </ol>
         </div>
       </Layout>
