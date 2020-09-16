@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-.container{
-    margin: 0 auto;
-    max-width: 750px;
-    padding: 1rem;
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+.container {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 1rem;
 
-    font-family: 'Rubik', sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-
-.content{
-    flex-grow: 1;
+.content {
+  flex-grow: 1;
 }
