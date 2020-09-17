@@ -34,6 +34,7 @@ const Top100Page = () => {
               <li>Raise a sloth pet</li>
               <li>Attend a grandslam tennis match </li>
               <li>Publish a library/framework/package</li>
+              <li>Attend an outdoor music show of Coldplay </li>
             </ol>
           </div>
         </Roll>

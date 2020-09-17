@@ -1,10 +1,9 @@
 import React from "react"
 import Layout from "../components/layout"
-
 import Head from "../components/head"
 import indexStyle from "./index.module.scss"
 import LightSpeed from "react-reveal/LightSpeed"
-
+// import HeadRoom from "react-headroom"
 const indexPage = () => {
   return (
     <Layout>
