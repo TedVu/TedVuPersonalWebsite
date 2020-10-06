@@ -15,8 +15,9 @@ const ContactPage = () => {
             <p>
               I'm best contacted via email at{" "}
               <a href="mailto: tedvu184@gmail.com">tedvu184@gmail.com</a>. If we
-              have met face-to-face, don't hesitate to DM me on any social
-              channel, otherwise please contact me via email first.
+              have met face-to-face or HIMYM is your favorite comedy series 😋,
+              don't hesitate to DM me on any social channel, otherwise please
+              contact me via email first.
             </p>
             <p>
               If you are around Melbourne, don't hesitate to set up a meeting
