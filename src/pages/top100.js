@@ -12,7 +12,9 @@ const Top100Page = () => {
         <h1 className={top100Styles.title}>My Top 💯 </h1>
         <Roll bottom>
           <div className={top100Styles.content}>
-            <h3>Here is the top 100 things I want to do in my life. </h3>
+            <h3>
+              Here is the list of top 100 things I want to do in my life.{" "}
+            </h3>
             <h4>
               Have any suggestion ? Just send me an{" "}
               <a href="mailto: tedvu184@gmail.com">email</a>
@@ -35,6 +37,19 @@ const Top100Page = () => {
               <li>Attend a grandslam tennis match </li>
               <li>Publish a library/framework/package</li>
               <li>Attend an outdoor music show of Coldplay </li>
+              <li>
+                Count down for new year and watch firework at Times Square
+              </li>
+              <li>
+                Eat pizza at New York (I know NY appears a lot, but isn't Big
+                Apple is one of the coolest place on Earth 😅 ?)
+              </li>
+              <li>
+                Participate in a marathon and actually run (FYI: I did join many
+                marathons like in my high school or Color Me Run but I just walk
+                more than half of the race)
+              </li>
+              <li>Eat Pho at a restaurant in California</li>
             </ol>
           </div>
         </Roll>
