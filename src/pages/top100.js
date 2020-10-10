@@ -46,8 +46,8 @@ const Top100Page = () => {
               </li>
               <li>
                 Participate in a marathon and actually run (FYI: I did join many
-                marathons like in my high school or Color Me Run but I just walk
-                more than half of the race)
+                marathons like in my high school or Color Me Run but I just
+                walked more than half of the race)
               </li>
               <li>Eat Pho at a restaurant in California</li>
             </ol>
