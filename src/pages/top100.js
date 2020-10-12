@@ -13,7 +13,8 @@ const Top100Page = () => {
         <Roll bottom>
           <div className={top100Styles.content}>
             <h3>
-              Here is the list of top 100 things I want to do in my life.{" "}
+              Here is the list of top 100 things I want to do in my life. Last
+              updated:12/10/2020{" "}
             </h3>
             <h4>
               Have any suggestion ? Just send me an{" "}
@@ -50,6 +51,7 @@ const Top100Page = () => {
                 walked more than half of the race)
               </li>
               <li>Eat Pho at a restaurant in California</li>
+              <li>Attend a boxing match </li>
             </ol>
           </div>
         </Roll>
