@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import Head from "../components/head"
 import top100Styles from "./top100.module.scss"
 import Roll from "react-reveal/Roll"
-
 const Top100Page = () => {
   return (
     <div>
@@ -14,7 +13,7 @@ const Top100Page = () => {
           <div className={top100Styles.content}>
             <h3>
               Here is the list of top 100 things I want to do in my life. Last
-              updated:12/10/2020{" "}
+              updated:20/02/2020{" "}
             </h3>
             <h4>
               Have any suggestion ? Just send me an{" "}
@@ -35,7 +34,33 @@ const Top100Page = () => {
               </li>
               <li>Visit NASA, SpaceX HQ and watch a rocket launch 🚀</li>
               <li>Raise a sloth pet</li>
-              <li>Attend a grandslam tennis match </li>
+              <li>
+                <a
+                  href=""
+                  onClick={event => {
+                    event.preventDefault()
+                    document.getElementById("myModal").style.display = "block"
+                  }}
+                  className={top100Styles.itemFinish}
+                >
+                  Attend a grandslam tennis match{" "}
+                </a>
+                <div id="myModal" className={top100Styles.modal}>
+                  <div className={top100Styles.modalContent}>
+                    <span
+                      id="closeBtn"
+                      className={top100Styles.close}
+                      onClick={() => {
+                        document.getElementById("myModal").style.display =
+                          "none"
+                      }}
+                    >
+                      &times;
+                    </span>
+                    <img src="./tedausopen.jpg" alt="ausOpen2021" />
+                  </div>
+                </div>
+              </li>
               <li>Publish a library/framework/package</li>
               <li>Attend an outdoor music show of Coldplay </li>
               <li>
