@@ -1,16 +1,27 @@
-# This is a repo for Ted Vu Personal Website
+# [Ted Vu Personal website](https://tedvu.com/)
 
-The website was built by leveraging these following technologies:
-* GatsbyJS
-* React
-* GraphQL
-* Contentful CMS
-* SASS
+## Overview
 
-# Website Link
+This is a repo to host Ted Vu personal website.
 
-Link: https://tedvu.netlify.app/
+## Developer
 
-# TODO
+Ted Vu 
 
-Integrate 3rd party service such as: blog subscription
+## Access
+
+Link: https://tedvu.com
+
+## Technologies
+
+The website is a [Jamstack](https://jamstack.org/) website powered by
+
+- GatsbyJS
+
+- GraphQL
+
+- React
+
+- Contentful
+
+  
