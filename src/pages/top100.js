@@ -82,7 +82,6 @@ const Top100Page = () => {
               <li>Learn to drive a helicopter.</li>
               <li>Learn snow skiing.</li>
               <li>Learn scuba diving.</li>
-              <li>Be financial independent.</li>
             </ol>
           </div>
         </Roll>
