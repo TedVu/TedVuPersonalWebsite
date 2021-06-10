@@ -47,7 +47,7 @@ const aboutPage = () => {
                 Sloth
               </a>{" "}
               (I mean who doesn't like the Sloth) and my guilty pleasure is
-              watching HIMYM marathon rerun :)
+              watching HIMYM marathon rerun.
             </div>
           </div>
         </Rotate>

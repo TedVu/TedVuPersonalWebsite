@@ -13,27 +13,28 @@ const Top100Page = () => {
           <div className={top100Styles.content}>
             <h3>
               Here is the list of top 100 things I want to do in my life. Last
-              updated:09/06/2021{" "}
+              updated:09/06/2021.{" "}
             </h3>
             <h4>
               Have any suggestion ? Just send me an{" "}
-              <a href="mailto: tedvu184@gmail.com">email</a>
+              <a href="mailto: tedvu184@gmail.com">email.</a>
             </h4>
             <ol>
               <li>Visit my family in Seattle 😎</li>
               <li>
-                Visit San Francisco and take a picture at the Golden Gate bridge
+                Visit San Francisco and take a picture at the Golden Gate
+                bridge.
               </li>
               <li>
                 Drink a beer while wearing cowboy hat at a Texas bar (please
-                don't judge 🤠😅 )
+                don't judge 🤠😅 ).
               </li>
               <li>
                 Attend a broadway theatre show (perharps the Hamilton show) in
-                New York
+                New York.
               </li>
               <li>Visit NASA, SpaceX HQ and watch a rocket launch 🚀</li>
-              <li>Raise a sloth pet</li>
+              <li>Raise a sloth pet.</li>
               <li>
                 <a
                   href=""
@@ -43,7 +44,7 @@ const Top100Page = () => {
                   }}
                   className={top100Styles.itemFinish}
                 >
-                  Attend a grandslam tennis match{" "}
+                  Attend a grandslam tennis match.{" "}
                 </a>
                 <div id="myModal" className={top100Styles.modal}>
                   <div className={top100Styles.modalContent}>
@@ -61,27 +62,27 @@ const Top100Page = () => {
                   </div>
                 </div>
               </li>
-              <li>Publish a library/framework/package</li>
-              <li>Attend an outdoor music show of Coldplay </li>
+              <li>Publish a library/framework/package.</li>
+              <li>Attend an outdoor music show of Coldplay. </li>
               <li>
-                Count down for new year and watch firework at Times Square
+                Count down for new year and watch firework at Times Square.
               </li>
               <li>
                 Eat pizza at New York (I know NY appears a lot, but isn't Big
-                Apple is one of the coolest place on Earth 😅 ?)
+                Apple is one of the coolest place on Earth 😅 ?).
               </li>
               <li>
                 Participate in a marathon and actually run (FYI: I did join many
                 marathons like in my high school or Color Me Run but I just
-                walked more than half of the race)
+                walked more than half of the race).
               </li>
-              <li>Eat Pho at a restaurant in California</li>
-              <li>Attend a boxing match </li>
-              <li>Be financial independent</li>
-              <li>Learn to drive a helicopter</li>
-              <li>Learn snow skiing</li>
-              <li>Learn scuba diving</li>
-              <li>Be financial independent</li>
+              <li>Eat Pho at a restaurant in California.</li>
+              <li>Attend a boxing match. </li>
+              <li>Be financial independent.</li>
+              <li>Learn to drive a helicopter.</li>
+              <li>Learn snow skiing.</li>
+              <li>Learn scuba diving.</li>
+              <li>Be financial independent.</li>
             </ol>
           </div>
         </Roll>

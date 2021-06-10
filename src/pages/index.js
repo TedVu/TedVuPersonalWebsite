@@ -22,7 +22,7 @@ const indexPage = () => {
           </h2>
           <div>
             This is where I write my personal thoughts about engineering, tech,
-            life and so much more
+            life and so much more.
           </div>
           <blockquote>
             Scientists discover the world that exists Engineers create the world
