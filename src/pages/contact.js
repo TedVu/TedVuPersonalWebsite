@@ -21,7 +21,8 @@ const ContactPage = () => {
             </p>
             <p>
               If you are around Melbourne, don't hesitate to set up a meeting
-              with me for any interesting conversation and project collaboration
+              with me for any interesting conversation and project
+              collaboration.
             </p>
             <p>I'm also available on other channels:</p>
             <ul>
