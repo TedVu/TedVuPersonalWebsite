@@ -9,6 +9,7 @@ const indexPage = () => {
     e.preventDefault()
     document.getElementById("welcome-panel").style.display = "none"
   }
+
   return (
     <Layout>
       <Head title="Home" />

@@ -15,7 +15,7 @@ const aboutPage = () => {
           <div className={aboutStyles.aboutMe}>
             <img
               className={aboutStyles.img}
-              src="./grayLinkedInAva2020.jpg"
+              src="https://tedvublogimages.s3.us-west-1.amazonaws.com/LinkedInAva2020.jpg"
               alt="tedvu"
               height="300"
               width="250"
