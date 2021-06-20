@@ -13,7 +13,7 @@ const Top100Page = () => {
           <div className={top100Styles.content}>
             <h3>
               Here is the list of top 100 things I want to do in my life. Last
-              updated:09/06/2021.{" "}
+              updated: 20-06-2021.{" "}
             </h3>
             <h4>
               Have any suggestion ? Just send me an{" "}
@@ -82,6 +82,27 @@ const Top100Page = () => {
               <li>Learn to drive a helicopter.</li>
               <li>Learn snow skiing.</li>
               <li>Learn scuba diving.</li>
+              <li>
+                Dress as{" "}
+                <a
+                  href="https://lotr.fandom.com/wiki/Aragorn_II_Elessar"
+                  target="_blank"
+                >
+                  Aragorn in a Halloween party
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a>
+                  Attend{" "}
+                  <a
+                    href="https://www.youtube.com/watch?v=9rhadTURsrw"
+                    target="_blank"
+                  >
+                    Super Bowl Halftime show
+                  </a>
+                </a>
+              </li>
             </ol>
           </div>
         </Roll>

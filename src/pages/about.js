@@ -22,8 +22,8 @@ const aboutPage = () => {
             />
             <div className={aboutStyles.content}>
               {" "}
-              Hi there, my name is Ted, I'm a third year Software Engineering
-              student at RMIT Melbourne. Here is my{" "}
+              Hi there, my name is Ted, I'm a Software Engineering student at
+              RMIT Melbourne. Here is my{" "}
               <a
                 href="https://www.dropbox.com/s/l8gmi91dr2fyj6m/Ted_CV_2020.pdf?dl=0X"
                 target="_blank"
