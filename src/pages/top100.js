@@ -88,8 +88,9 @@ const Top100Page = () => {
                   href="https://lotr.fandom.com/wiki/Aragorn_II_Elessar"
                   target="_blank"
                 >
-                  Aragorn in a Halloween party
+                  Aragorn
                 </a>
+                in a Halloween party
               </li>
               <li>
                 {" "}
