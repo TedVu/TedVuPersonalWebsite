@@ -89,7 +89,7 @@ const Top100Page = () => {
                   target="_blank"
                 >
                   Aragorn
-                </a>
+                </a>{" "}
                 in a Halloween party
               </li>
               <li>
