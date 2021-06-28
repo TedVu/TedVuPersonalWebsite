@@ -14,7 +14,7 @@ Link: https://tedvu.com
 
 ## Technologies
 
-The website is a [Jamstack](https://jamstack.org/) website powered by
+The website built with [Jamstack](https://jamstack.org/) philosophy and powered by these following technologies: 
 
 - GatsbyJS
 
