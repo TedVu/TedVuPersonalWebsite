@@ -104,6 +104,9 @@ const Top100Page = () => {
                   </a>
                 </a>
               </li>
+              <li>
+                Learn to play a musical instrument (maybe ukulele or guitar)
+              </li>
             </ol>
           </div>
         </Roll>
