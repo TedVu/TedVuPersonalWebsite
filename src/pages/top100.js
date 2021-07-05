@@ -109,6 +109,7 @@ const Top100Page = () => {
               </li>
               <li>Come to Canada and watch a hockey match</li>
               <li>Take a picture at Hollywood boulevard</li>
+              <li>Watch a live NBA game</li>
             </ol>
           </div>
         </Roll>
