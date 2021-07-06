@@ -90,7 +90,7 @@ const Top100Page = () => {
                 >
                   Aragorn
                 </a>{" "}
-                in a Halloween party
+                in a Halloween party.
               </li>
               <li>
                 {" "}
@@ -100,16 +100,16 @@ const Top100Page = () => {
                     href="https://www.youtube.com/watch?v=9rhadTURsrw"
                     target="_blank"
                   >
-                    Super Bowl Halftime show
+                    Super Bowl Halftime show.
                   </a>
                 </a>
               </li>
               <li>
-                Learn to play a musical instrument (maybe ukulele or guitar)
+                Learn to play a musical instrument (maybe ukulele or guitar).
               </li>
-              <li>Come to Canada and watch a hockey match</li>
-              <li>Take a picture at Hollywood boulevard</li>
-              <li>Watch a live NBA game</li>
+              <li>Come to Canada and watch a hockey match.</li>
+              <li>Take a picture at Hollywood boulevard.</li>
+              <li>Watch a live NBA game.</li>
             </ol>
           </div>
         </Roll>
