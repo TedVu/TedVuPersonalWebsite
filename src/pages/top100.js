@@ -13,7 +13,7 @@ const Top100Page = () => {
           <div className={top100Styles.content}>
             <h3>
               Here is the list of top 100 things I want to do in my life. Last
-              updated: 28-06-2021.{" "}
+              updated: 10-07-2021.{" "}
             </h3>
             <h4>
               Have any suggestion ? Just send me an{" "}
@@ -110,6 +110,7 @@ const Top100Page = () => {
               <li>Come to Canada and watch a hockey match.</li>
               <li>Take a picture at Hollywood boulevard.</li>
               <li>Watch a live NBA game.</li>
+              <li>Participate in a swimming contest</li>
             </ol>
           </div>
         </Roll>
