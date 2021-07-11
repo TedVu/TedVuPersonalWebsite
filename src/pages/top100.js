@@ -107,7 +107,7 @@ const Top100Page = () => {
               <li>
                 Learn to play a musical instrument (maybe ukulele or guitar).
               </li>
-              <li>Come to Canada and watch a hockey match.</li>
+              <li>Visit Canada and watch a hockey match.</li>
               <li>Take a picture at Hollywood boulevard.</li>
               <li>Watch a live NBA game.</li>
               <li>Participate in a swimming contest.</li>
