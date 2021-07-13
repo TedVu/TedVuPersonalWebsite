@@ -27,7 +27,7 @@ const ContactPage = () => {
               >
                 subscribing{" "}
               </a>{" "}
-              it, it means a lot to me.{" "}
+              for the latest blog posts, it means a lot to me.{" "}
             </p>
 
             <p>I'm also available on other channels:</p>
