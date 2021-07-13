@@ -22,7 +22,7 @@ const ContactPage = () => {
             <p>
               If you find my blog useful and interesting consider{" "}
               <a
-                href="https://mailchi.mp/0705ebc64fb9/tedvusubcribe"
+                href="https://mailchi.mp/2f7424675562/tedvublogsubscription"
                 target="_blank"
               >
                 subscribing{" "}
