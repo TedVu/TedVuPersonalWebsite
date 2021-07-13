@@ -9,7 +9,7 @@ const ContactPage = () => {
     <div>
       <Layout>
         <Head title="Contact" />
-        <h1 className={contactStyles.title}>Contact </h1>
+        <h1 className={contactStyles.title}>Get in touch </h1>
         <Fade right>
           <div className={contactStyles.content}>
             <p>
@@ -20,10 +20,16 @@ const ContactPage = () => {
               contact me via email first.
             </p>
             <p>
-              If you are around Melbourne, don't hesitate to set up a meeting
-              with me for any interesting conversation and project
-              collaboration.
+              If you find my blog useful and interesting consider{" "}
+              <a
+                href="https://mailchi.mp/0705ebc64fb9/tedvusubcribe"
+                target="_blank"
+              >
+                subscribing{" "}
+              </a>{" "}
+              it, it means a lot to me.{" "}
             </p>
+
             <p>I'm also available on other channels:</p>
             <ul>
               <li>
