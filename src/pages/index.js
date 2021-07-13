@@ -10,11 +10,6 @@ const indexPage = () => {
     document.getElementById("welcome-panel").style.display = "none"
   }
 
-  const headElement = document.getElementsByTagName("head")
-  const content =
-    '<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/174f06fd7e13abc797cb6971c/a89900e0cf1b9600bff312807.js");</script>' +
-    headElement[0].innerHTML
-  document.getElementsByTagName("head")[0].innerHTML = content
   return (
     <Layout>
       <Head title="Home"></Head>
