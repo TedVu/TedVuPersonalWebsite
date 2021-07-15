@@ -111,6 +111,7 @@ const Top100Page = () => {
               <li>Take a picture at Hollywood boulevard.</li>
               <li>Watch a live NBA game.</li>
               <li>Participate in a swimming contest.</li>
+              <li>Watch a Aussie football match at MGC stadium</li>
             </ol>
           </div>
         </Roll>
