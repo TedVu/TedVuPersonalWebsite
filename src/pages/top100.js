@@ -112,8 +112,8 @@ const Top100Page = () => {
               <li>Watch a live NBA game.</li>
               <li>Participate in a swimming contest.</li>
               <li>Watch an Aussie football match at MCG stadium.</li>
-              <li>Learn to drive a car</li>
-              <li>Take a picture with Novak Djokovic</li>
+              <li>Learn to drive a car.</li>
+              <li>Take a picture with Novak Djokovic.</li>
             </ol>
           </div>
         </Roll>
