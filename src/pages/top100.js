@@ -114,8 +114,8 @@ const Top100Page = () => {
               <li>Watch an Aussie football match at MCG stadium.</li>
               <li>Learn to drive a car.</li>
               <li>Take a picture with Novak Djokovic.</li>
-              <li>Climb a mountain</li>
-              <li>Maintain a Github repo with at least 1k stars</li>
+              <li>Climb a mountain.</li>
+              <li>Maintain a Github repo with at least 1k stars.</li>
             </ol>
           </div>
         </Roll>
