@@ -117,6 +117,7 @@ const Top100Page = () => {
               <li>Climb a mountain.</li>
               <li>Maintain a Github repo with at least 1k stars.</li>
               <li>Travel to at least 10 countries.</li>
+              <li>Perform a song at a wedding.</li>
             </ol>
           </div>
         </Roll>
