@@ -117,7 +117,16 @@ const Top100Page = () => {
               <li>Climb a mountain.</li>
               <li>Maintain a Github repo with at least 1k stars.</li>
               <li>Travel to at least 10 countries.</li>
-              <li>Perform a song at a wedding.</li>
+              <li>
+                Perform a song at a wedding.(maybe{" "}
+                <a
+                  href="https://www.youtube.com/watch?v=iACXwsP56a0&t=74s"
+                  target="_blank"
+                >
+                  this song
+                </a>
+                )
+              </li>
               <li>Watch a live soccer match from Vietnam team</li>
             </ol>
           </div>
