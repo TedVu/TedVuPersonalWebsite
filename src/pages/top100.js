@@ -127,8 +127,8 @@ const Top100Page = () => {
                 </a>
                 )
               </li>
-              <li>Watch a live soccer match from Vietnam team</li>
-              <li>Watch firework at Sydney Opera house</li>
+              <li>Watch a live soccer match from Vietnam team.</li>
+              <li>Watch firework at Sydney Opera house.</li>
             </ol>
           </div>
         </Roll>
