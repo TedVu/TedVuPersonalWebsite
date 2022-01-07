@@ -128,7 +128,16 @@ const Top100Page = () => {
                 )
               </li>
               <li>Watch a live soccer match from Vietnam team.</li>
-              <li>Watch firework at Sydney Opera house.</li>
+              <li>
+                {" "}
+                <a
+                  href="https://www.dropbox.com/s/kytio962j41tjkc/nye21.jpg?dl=0"
+                  target="_blank"
+                  className={top100Styles.itemFinish}
+                >
+                  Watch firework at Sydney Opera house.
+                </a>
+              </li>
             </ol>
           </div>
         </Roll>
