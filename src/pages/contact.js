@@ -15,8 +15,7 @@ const ContactPage = () => {
             <p>
               I'm best contacted via email at{" "}
               <a href="mailto: tedvu184@gmail.com">tedvu184@gmail.com</a>. If we
-              have met face-to-face or HIMYM is your favorite comedy series 😋,
-              don't hesitate to DM me on any social channel, otherwise please
+              have met face-to-face, don't hesitate to DM me on any social channel, otherwise please
               contact me via email first.
             </p>
             <p>
@@ -27,7 +26,7 @@ const ContactPage = () => {
               >
                 subscribing{" "}
               </a>{" "}
-              for the latest blog posts, it means a lot to me.{" "}
+              for the latest blog posts.
             </p>
 
             <p>I'm also available on other channels:</p>
