@@ -25,7 +25,7 @@ const aboutPage = () => {
               Hi there, my name is Ted, I'm a last year Software Engineering student at
               RMIT Melbourne. Here is my{" "}
               <a
-                href="https://www.dropbox.com/s/n1l9d8qimxi2lly/Ted_Vu_CV_2021.pdf?dl=0"
+                href="https://www.dropbox.com/s/b5rhf0wz7r3m6jc/Ted_Vu_CV_2022.pdf?dl=0"
                 target="_blank"
                 className={aboutStyles.links}
               >
