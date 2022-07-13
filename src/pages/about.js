@@ -22,8 +22,7 @@ const aboutPage = () => {
             />
             <div className={aboutStyles.content}>
               {" "}
-              Hi there, my name is Ted, I'm a last year Software Engineering student at
-              RMIT Melbourne. Here is my{" "}
+              Hi there, my name is Ted, I'm a Software Engineer based in Melbourne. Here is my{" "}
               <a
                 href="https://www.dropbox.com/s/b5rhf0wz7r3m6jc/Ted_Vu_CV_2022.pdf?dl=0"
                 target="_blank"
