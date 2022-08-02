@@ -24,7 +24,7 @@ const aboutPage = () => {
               {" "}
               Hi there, my name is Ted, I'm a Software Engineer based in Melbourne. Here is my{" "}
               <a
-                href="https://www.dropbox.com/s/b5rhf0wz7r3m6jc/Ted_Vu_CV_2022.pdf?dl=0"
+                href="https://www.dropbox.com/s/5qrwvde0et3c5b4/Ted-Vu_Software-Engineer_Latest-Resume.pdf?dl=0"
                 target="_blank"
                 className={aboutStyles.links}
               >
