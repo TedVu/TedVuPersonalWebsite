@@ -33,7 +33,7 @@ const ContactPage = () => {
             <ul>
               <li>
                 <a
-                  href="https://github.com/Ted-Vu"
+                  href="https://github.com/TedVu"
                   target="_blank"
                   className={contactStyles.linkItem}
                 >
@@ -42,7 +42,7 @@ const ContactPage = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/ted-vu-24777b18b/"
+                  href="https://www.linkedin.com/in/tedvu/"
                   target="_blank"
                   className={contactStyles.linkItem}
                 >
@@ -51,7 +51,7 @@ const ContactPage = () => {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/tedvu184/"
+                  href="https://www.instagram.com/ted.vda/"
                   target="_blank"
                   className={contactStyles.linkItem}
                 >
@@ -60,7 +60,7 @@ const ContactPage = () => {
               </li>
               <li>
                 <a
-                  href="https://www.facebook.com/"
+                  href="https://www.facebook.com/profile.php?id=100009037481395"
                   target="_blank"
                   className={contactStyles.linkItem}
                 >
