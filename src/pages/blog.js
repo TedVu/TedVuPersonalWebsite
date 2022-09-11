@@ -40,7 +40,7 @@ const BlogPage = () => {
         <div>
           <Bounce bottom>
             <ol className={blogStyles.posts}>
-              {data.allContentfulBlogPost.edges.map(edge => (
+              {uniqueBlogPosts.map(edge => (
                 <li className={blogStyles.post}>
                   <Link to={`./${edge.node.slug}`}>
                     <h2>{edge.node.title}</h2>
