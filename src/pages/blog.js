@@ -19,17 +19,6 @@ const BlogPage = () => {
       }
     }
   `)
-
-  const edgeSet = Set()
-  for (const edge in data.allContentfulBlogPost.edges) {
-    edgeSet.add(edge)
-  }
-
-  const edgeArray = []
-  for (const edge in edgeSet) {
-    edgeArray.push(edge)
-  }
-
   return (
     <div>
       <Layout>
@@ -40,7 +29,7 @@ const BlogPage = () => {
         <div>
           <Bounce bottom>
             <ol className={blogStyles.posts}>
-              {edgeArray.map(edge => (
+              {data.allContentfulBlogPost.edges.map(edge => (
                 <li className={blogStyles.post}>
                   <Link to={`./${edge.node.slug}`}>
                     <h2>{edge.node.title}</h2>
