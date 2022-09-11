@@ -21,7 +21,7 @@ const BlogPage = () => {
   `)
 
   const uniqueEdge = []
-  const edgeSet = Set()
+  const edgeSet = new Set()
 
   for (const edge in data.allContentfulBlogPost.edges) {
     edgeSet.add(edge.node.title)
