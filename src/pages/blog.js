@@ -4,7 +4,6 @@ import { Link, graphql, useStaticQuery } from "gatsby"
 import blogStyles from "./blog.module.scss"
 import Head from "../components/head"
 import Bounce from "react-reveal/Bounce"
-import { format } from "prettier"
 
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
@@ -30,7 +29,7 @@ const BlogPage = () => {
       blogPostTitle.add(edge.node.title)
     }
   })
-
+  // Add some comment to check build
   return (
     <div>
       <Layout>
@@ -41,7 +40,7 @@ const BlogPage = () => {
         <div>
           <Bounce bottom>
             <ol className={blogStyles.posts}>
-              {uniqueBlogPosts.map(edge => (
+              {data.allContentfulBlogPost.edges.map(edge => (
                 <li className={blogStyles.post}>
                   <Link to={`./${edge.node.slug}`}>
                     <h2>{edge.node.title}</h2>
