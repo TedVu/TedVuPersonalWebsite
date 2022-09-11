@@ -19,6 +19,17 @@ const BlogPage = () => {
       }
     }
   `)
+
+  const uniqueEdge = []
+  const edgeSet = Set()
+
+  for (const edge in data.allContentfulBlogPost.edges) {
+    edgeSet.add(edge)
+  }
+
+  for (const edge in edgeSet) {
+    uniqueEdge.push(edge)
+  }
   return (
     <div>
       <Layout>
@@ -29,7 +40,7 @@ const BlogPage = () => {
         <div>
           <Bounce bottom>
             <ol className={blogStyles.posts}>
-              {data.allContentfulBlogPost.edges.map(edge => (
+              {uniqueEdge.map(edge => (
                 <li className={blogStyles.post}>
                   <Link to={`./${edge.node.slug}`}>
                     <h2>{edge.node.title}</h2>
