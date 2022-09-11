@@ -28,7 +28,7 @@ const BlogPage = () => {
   }
 
   for (const edge in edgeSet) {
-    if (!edgeSet.has(edge, node.title)) {
+    if (!edgeSet.has(edge.node.title)) {
       uniqueEdge.push(edge)
     }
   }
