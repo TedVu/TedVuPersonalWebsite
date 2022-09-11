@@ -19,6 +19,7 @@ const BlogPage = () => {
       }
     }
   `)
+  // Add some comment to check build
   return (
     <div>
       <Layout>
