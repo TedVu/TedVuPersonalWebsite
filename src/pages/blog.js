@@ -24,11 +24,13 @@ const BlogPage = () => {
   const edgeSet = Set()
 
   for (const edge in data.allContentfulBlogPost.edges) {
-    edgeSet.add(edge)
+    edgeSet.add(edge.node.title)
   }
 
   for (const edge in edgeSet) {
-    uniqueEdge.push(edge)
+    if (!edgeSet.has(edge, node.title)) {
+      uniqueEdge.push(edge)
+    }
   }
   return (
     <div>
