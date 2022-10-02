@@ -22,9 +22,10 @@ const aboutPage = () => {
             />
             <div className={aboutStyles.content}>
               {" "}
-              Hi there, my name is Ted, I'm a Software Engineer based in Melbourne. Here is my{" "}
+              Hi there, my name is Ted, I'm a Software Engineer based in
+              Melbourne. Here is my{" "}
               <a
-                href="https://www.dropbox.com/s/5qrwvde0et3c5b4/Ted-Vu_Software-Engineer_Latest-Resume.pdf?dl=0"
+                href="https://www.dropbox.com/s/ch292h7asiqyc2r/Ted-Vu_Software-Engineer_Latest-Resume.pdf?dl=0"
                 target="_blank"
                 className={aboutStyles.links}
               >
@@ -33,9 +34,11 @@ const aboutPage = () => {
               so far and I enjoy every minute of it.
               <br />
               <br />
-              I love exploring Software Engineering field, all the work that I have done reflects my passion for Software Engineering field which I believe it's about learning how things really work and applying that knowledge to create products that end users love.
+              I love exploring Software Engineering field, all the work that I
+              have done reflects my passion for Software Engineering field which
+              I believe it's about learning how things really work and applying
+              that knowledge to create products that end users love.
               <br />
-              
             </div>
           </div>
         </Rotate>
