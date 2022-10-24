@@ -13,7 +13,7 @@ const Top100Page = () => {
           <div className={top100Styles.content}>
             <h3>
               Here is the list of top 100 things I want to do in my life. Last
-              updated: 18-12-2021.{" "}
+              updated: 24-10-2022.{" "}
             </h3>
             <h4>
               Have any suggestion ? Just send me an{" "}
@@ -127,11 +127,15 @@ const Top100Page = () => {
                 </a>
                 )
               </li>
-              <li><a
+              <li>
+                <a
                   href="https://www.dropbox.com/s/34z31dm3n5v2f3e/vietnammatch.jpg?dl=0"
                   target="_blank"
                   className={top100Styles.itemFinish}
-                >Watch a live soccer match from Vietnamese team. </a></li>
+                >
+                  Watch a live soccer match from Vietnamese team.{" "}
+                </a>
+              </li>
               <li>
                 {" "}
                 <a
@@ -142,6 +146,8 @@ const Top100Page = () => {
                   Watch firework at Sydney Opera house.
                 </a>
               </li>
+
+              <li>Enjoy a ride in a hot air balloon</li>
             </ol>
           </div>
         </Roll>
