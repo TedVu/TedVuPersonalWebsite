@@ -13,7 +13,7 @@ const Top100Page = () => {
           <div className={top100Styles.content}>
             <h3>
               Here is the list of top 100 things I want to do in my life. Last
-              updated: 24-10-2022.{" "}
+              updated: 25-10-2022.{" "}
             </h3>
             <h4>
               Have any suggestion ? Just send me an{" "}
@@ -112,7 +112,16 @@ const Top100Page = () => {
               <li>Watch a live NBA game.</li>
               <li>Participate in a swimming contest.</li>
               <li>Watch an Aussie football match at MCG stadium.</li>
-              <li>Learn to drive a car.</li>
+              <li>
+                {" "}
+                <a
+                  href="https://www.dropbox.com/s/hymgi576h18fmsc/pass.jpg?dl=0"
+                  target="_blank"
+                  className={top100Styles.itemFinish}
+                >
+                  Learn to drive a car.
+                </a>
+              </li>
               <li>Take a picture with Novak Djokovic.</li>
               <li>Climb a mountain.</li>
               <li>Maintain a Github repo with at least 1k stars.</li>
