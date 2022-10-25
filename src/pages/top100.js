@@ -147,7 +147,7 @@ const Top100Page = () => {
                 </a>
               </li>
 
-              <li>Enjoy a ride in a hot air balloon</li>
+              <li>Enjoy a ride in a hot air balloon.</li>
             </ol>
           </div>
         </Roll>
