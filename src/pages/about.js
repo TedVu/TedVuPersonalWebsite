@@ -15,7 +15,7 @@ const aboutPage = () => {
           <div className={aboutStyles.aboutMe}>
             <img
               className={aboutStyles.img}
-              src="https://tedvublogimages.s3.us-west-1.amazonaws.com/LinkedInAva2020.jpg"
+              src="https://tedvublogimages.s3.us-west-1.amazonaws.com/profilepics.jpg"
               alt="tedvu"
               height="300"
               width="250"
@@ -34,10 +34,11 @@ const aboutPage = () => {
               so far and I enjoy every minute of it.
               <br />
               <br />
-              I love exploring Software Engineering field, all the work that I
-              have done reflects my passion for Software Engineering field which
-              I believe it's about learning how things really work and applying
-              that knowledge to create products that end users love.
+              I'm a software engineer with a strong belief in "learning how
+              things work before building it". In any team, I'm striving to
+              deliver the best possible solution under the time and cost
+              constraints and enjoy the process of overcoming the challenges
+              with the team.
               <br />
             </div>
           </div>
