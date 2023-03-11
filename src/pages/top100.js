@@ -168,6 +168,7 @@ const Top100Page = () => {
                   Obtaining a CPR and First aid training certificate.
                 </a>
               </li>
+              <li>Present at a public conference.</li>
             </ol>
           </div>
         </Roll>
