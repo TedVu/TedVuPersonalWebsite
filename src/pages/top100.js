@@ -169,6 +169,7 @@ const Top100Page = () => {
                 </a>
               </li>
               <li>Present at a public conference.</li>
+              <li>Build an app with at least 1000 users.</li>
             </ol>
           </div>
         </Roll>
