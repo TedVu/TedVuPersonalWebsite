@@ -170,7 +170,8 @@ const Top100Page = () => {
               </li>
               <li>Present at a public conference.</li>
               <li>Build an app with at least 1000 users.</li>
-              <li>Travel to all 7 continents</li>
+              <li>Travel to all 7 continents.</li>
+              <li>Be proficient in at least 5 languages</li>
             </ol>
           </div>
         </Roll>
