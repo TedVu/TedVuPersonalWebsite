@@ -171,8 +171,11 @@ const Top100Page = () => {
               <li>Present at a public conference.</li>
               <li>Build an app with at least 1000 users.</li>
               <li>Travel to all 7 continents.</li>
-              <li>Be proficient in at least 5 languages</li>
-              <li>Eating 'bun' on a boat in the south west of Vietnam </li>
+              <li>
+                Be proficient in at least 5 languages (and yes not programming
+                languages :) ).
+              </li>
+              <li>Eating 'bun' on a boat in the south west of Vietnam. </li>
             </ol>
           </div>
         </Roll>
