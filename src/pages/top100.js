@@ -13,7 +13,7 @@ const Top100Page = () => {
           <div className={top100Styles.content}>
             <h3>
               Here is the list of top 100 things I want to do in my life. Last
-              updated: 28-03-2023.{" "}
+              updated: 06-01-2024.{" "}
             </h3>
             <h4>
               Have any suggestion ? Just send me an{" "}
@@ -72,9 +72,16 @@ const Top100Page = () => {
                 Apple is one of the coolest place on Earth 😅 ?).
               </li>
               <li>
-                Participate in a marathon and actually run (FYI: I did join many
+                Participate in a marathon and complete it (FYI: I did join many
                 marathons like in my high school or Color Me Run but I just
-                walked more than half of the race).
+                walked more than half of the race) and this is the{" "}
+                <a
+                  href="https://www.strava.com/athletes/88737048"
+                  target="_blank"
+                >
+                  training progress{" "}
+                </a>{" "}
+                so far.
               </li>
               <li>Eat Pho at a restaurant in California.</li>
               <li>Attend a boxing match. </li>
@@ -176,6 +183,7 @@ const Top100Page = () => {
                 languages :) ).
               </li>
               <li>Eating 'bun' on a boat in the south west of Vietnam. </li>
+              <li>Being proficient in cooking</li>
             </ol>
           </div>
         </Roll>

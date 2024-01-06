@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <footer className={footerStyles.footer}>
       <p>
-        Created by {data.site.siteMetadata.author}, copyright 2022, proudly
+        Created by {data.site.siteMetadata.author}, copyright 2024, proudly
         powered by{" "}
         <a
           href="https://gatsbyjs.com"
