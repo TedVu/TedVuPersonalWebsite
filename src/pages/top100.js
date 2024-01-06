@@ -183,7 +183,7 @@ const Top100Page = () => {
                 languages :) ).
               </li>
               <li>Eating 'bun' on a boat in the south west of Vietnam. </li>
-              <li>Being proficient in cooking</li>
+              <li>Being proficient in cooking.</li>
             </ol>
           </div>
         </Roll>
