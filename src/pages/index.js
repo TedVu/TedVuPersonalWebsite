@@ -26,11 +26,11 @@ const indexPage = () => {
             life and so much more.
           </div>
           <blockquote>
-            Scientists discover the world that exists Engineers create the world
-            that never was.
+            The fear of death follows from the fear of life. A man who lives
+            fully is prepared to die at any time.
           </blockquote>
           <div className={indexStyle.cite}>
-            <cite>Theodore Von Karman</cite>
+            <cite>Mark Twain</cite>
           </div>
         </div>
       </LightSpeed>
