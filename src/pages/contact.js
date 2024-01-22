@@ -58,15 +58,6 @@ const ContactPage = () => {
                   <i class="fa fa-instagram"></i> Instagram{" "}
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://www.facebook.com/profile.php?id=100009037481395"
-                  target="_blank"
-                  className={contactStyles.linkItem}
-                >
-                  <i class="fa fa-facebook-official"></i> Facebook{" "}
-                </a>
-              </li>
             </ul>
           </div>
         </Fade>
