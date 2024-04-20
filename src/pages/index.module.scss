@@ -12,6 +12,25 @@
   border-radius: 25px;
 }
 
+.subscriptionDialog {
+  margin: 2rem 15rem;
+  background: #fdfd96;
+  color: #000000;
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  border-radius: 25px;
+  z-index: 9;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.dialogContent {
+  margin-bottom: 20px;
+}
+
 .cite {
   text-align: right;
 }
@@ -24,6 +43,14 @@
   border-radius: 8px;
 }
 
+.subscribeButton {
+  float: right;
+  background-color: rgb(34, 187, 51);
+  color: white;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-right: 2rem;
+}
 blockquote {
   font-weight: 100;
   font-size: 1.5rem;

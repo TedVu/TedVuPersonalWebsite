@@ -3,28 +3,61 @@ import Layout from "../components/layout"
 import Head from "../components/head"
 import indexStyle from "./index.module.scss"
 import LightSpeed from "react-reveal/LightSpeed"
+import Bounce from "react-reveal/Bounce"
 
 const indexPage = () => {
-  function handleClick(e) {
+  function handleCloseBtnClick(e) {
     e.preventDefault()
     document.getElementById("welcome-panel").style.display = "none"
+  }
+
+  function handleSubscriptionBtnClick(e) {
+    e.preventDefault()
+    window.open(
+      "https://mailchi.mp/2f7424675562/tedvublogsubscription",
+      "_blank"
+    )
   }
 
   return (
     <Layout>
       <Head title="Home"></Head>
+      <Bounce top>
+        <div id="welcome-panel" className={indexStyle.subscriptionDialog}>
+          <h2>Welcome readers!</h2>
+          <div className={indexStyle.dialogContent}>
+            My name is Ted Vu and this is where I write my personal thoughts
+            about engineering, tech, life and so much more. If you find my blog
+            useful and interesting, consider subscribing for the latest blog
+            posts.
+          </div>{" "}
+          <button
+            className={indexStyle.closeButton}
+            onClick={handleCloseBtnClick}
+          >
+            CLOSE
+          </button>
+          <button
+            className={indexStyle.subscribeButton}
+            onClick={handleSubscriptionBtnClick}
+            type="button"
+          >
+            SUBSCRIBE
+          </button>
+        </div>
+      </Bounce>
       <LightSpeed left>
         <div id="welcome-panel" className={indexStyle.introduction}>
           <h2>
             Welcome to Ted Vu Personal Website
-            <button className={indexStyle.closeButton} onClick={handleClick}>
+            <button
+              className={indexStyle.closeButton}
+              onClick={handleCloseBtnClick}
+            >
               CLOSE
             </button>
           </h2>
-          <div>
-            This is where I write my personal thoughts about engineering, tech,
-            life and so much more.
-          </div>
+
           <blockquote>
             The fear of death follows from the fear of life. A man who lives
             fully is prepared to die at any time.
