@@ -6,9 +6,14 @@ import LightSpeed from "react-reveal/LightSpeed"
 import Bounce from "react-reveal/Bounce"
 
 const indexPage = () => {
-  function handleCloseBtnClick(e) {
+  function handleCloseBtnWelcomePanelClick(e) {
     e.preventDefault()
     document.getElementById("welcome-panel").style.display = "none"
+  }
+
+  function handleCloseBtnDialogPanelClick(e) {
+    e.preventDefault()
+    document.getElementById("dialog-panel").style.display = "none"
   }
 
   function handleSubscriptionBtnClick(e) {
@@ -23,7 +28,7 @@ const indexPage = () => {
     <Layout>
       <Head title="Home"></Head>
       <Bounce top>
-        <div id="welcome-panel" className={indexStyle.subscriptionDialog}>
+        <div id="dialog-panel" className={indexStyle.subscriptionDialog}>
           <h2>Welcome readers!</h2>
           <div className={indexStyle.dialogContent}>
             My name is Ted Vu and this is where I write my personal thoughts
@@ -33,7 +38,7 @@ const indexPage = () => {
           </div>{" "}
           <button
             className={indexStyle.closeButton}
-            onClick={handleCloseBtnClick}
+            onClick={handleCloseBtnDialogPanelClick}
           >
             CLOSE
           </button>
@@ -52,7 +57,7 @@ const indexPage = () => {
             Welcome to Ted Vu Personal Website
             <button
               className={indexStyle.closeButton}
-              onClick={handleCloseBtnClick}
+              onClick={handleCloseBtnWelcomePanelClick}
             >
               CLOSE
             </button>
