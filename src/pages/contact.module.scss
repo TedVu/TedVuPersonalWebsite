@@ -1,34 +1,30 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
-
-.title{
-    color:white
+.title {
+  color: white;
 }
 
-.content{
-    margin: 1rem 0;
-    background:#f4f4f4;
-    color: #000000;
-    display:block;
-    padding:1rem;
-    text-decoration: none;
-    font-family: 'Rubik', sans-serif;
-    border-radius:25px;
+.content {
+  margin: 1rem 0;
+  background: #f4f4f4;
+  color: #000000;
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  font-family: "Be Vietnam Pro", sans-serif;
+  border-radius: 25px;
 }
 
-.link-item:hover{
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 20%;
-    border-bottom: 0;
-    padding-bottom: .3em;
-    text-decoration: none;
-    
+.link-item:hover {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: 0.3em;
+  text-decoration: none;
 }
 
-.link-item{
-    text-decoration:none;
+.link-item {
+  text-decoration: none;
 }
-
-
