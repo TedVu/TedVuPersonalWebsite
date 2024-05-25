@@ -14,6 +14,7 @@ const BlogPage = () => {
             title
             slug
             publishedDate(formatString: "MMMM Do, YYYY")
+            language
           }
         }
       }
@@ -23,7 +24,10 @@ const BlogPage = () => {
   const uniqueBlogPosts = []
   const blogPostTitle = new Set()
   data.allContentfulBlogPost.edges.forEach(edge => {
-    if (!blogPostTitle.has(edge.node.title)) {
+    if (
+      !blogPostTitle.has(edge.node.title) &&
+      edge.node.language === "english"
+    ) {
       console.log(edge)
       uniqueBlogPosts.push(edge)
       blogPostTitle.add(edge.node.title)
