@@ -136,7 +136,7 @@ const Top100Page = () => {
               <li>
                 Perform a song at a wedding.(maybe{" "}
                 <a
-                  href="https://www.youtube.com/watch?v=iACXwsP56a0&t=74s"
+                  href="https://www.youtube.com/watch?v=iACXwsP56a0"
                   target="_blank"
                 >
                   this song

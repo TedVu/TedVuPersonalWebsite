@@ -15,8 +15,8 @@ const ContactPage = () => {
             <p>
               I'm best contacted via email at{" "}
               <a href="mailto: tedvu184@gmail.com">tedvu184@gmail.com</a>. If we
-              have met face-to-face, don't hesitate to DM me on any social channel, otherwise please
-              contact me via email first.
+              have met face-to-face, don't hesitate to DM me on any social
+              channel, otherwise please contact me via email first.
             </p>
             <p>
               If you find my blog useful and interesting consider{" "}
@@ -47,15 +47,6 @@ const ContactPage = () => {
                   className={contactStyles.linkItem}
                 >
                   <i class="fa fa-linkedin-square"></i> LinkedIn{" "}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/ted.vda/"
-                  target="_blank"
-                  className={contactStyles.linkItem}
-                >
-                  <i class="fa fa-instagram"></i> Instagram{" "}
                 </a>
               </li>
             </ul>
