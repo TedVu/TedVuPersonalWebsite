@@ -27,30 +27,6 @@ const indexPage = () => {
   return (
     <Layout>
       <Head title="Home"></Head>
-      <Bounce top>
-        <div id="dialog-panel" className={indexStyle.subscriptionDialog}>
-          <h2>Welcome readers!</h2>
-          <div className={indexStyle.dialogContent}>
-            My name is Ted Vu and this is where I write my personal thoughts
-            about engineering, tech, life and so much more. If you find my blog
-            useful and interesting, consider subscribing for the latest blog
-            posts.
-          </div>{" "}
-          <button
-            className={indexStyle.closeButton}
-            onClick={handleCloseBtnDialogPanelClick}
-          >
-            CLOSE
-          </button>
-          <button
-            className={indexStyle.subscribeButton}
-            onClick={handleSubscriptionBtnClick}
-            type="button"
-          >
-            SUBSCRIBE
-          </button>
-        </div>
-      </Bounce>
       <LightSpeed left>
         <div id="welcome-panel" className={indexStyle.introduction}>
           <h2>
